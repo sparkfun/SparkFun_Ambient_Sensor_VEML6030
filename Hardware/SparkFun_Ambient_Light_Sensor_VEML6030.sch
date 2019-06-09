@@ -21011,6 +21011,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_2-NC_TRACE" device="_SILK" value="I2C_PU"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="R5" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
+<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -21138,6 +21140,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SUPPLY7" gate="G$1" x="193.04" y="121.92" smashed="yes">
 <attribute name="VALUE" x="193.04" y="124.714" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="R5" gate="G$1" x="86.36" y="142.24" smashed="yes" rot="R90">
+<attribute name="NAME" x="84.836" y="142.24" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="87.884" y="142.24" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="SUPPLY8" gate="G$1" x="86.36" y="149.86" smashed="yes">
+<attribute name="VALUE" x="86.36" y="152.654" size="1.778" layer="96" align="bottom-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -21186,6 +21195,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 <wire x1="132.08" y1="83.82" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="86.36" y1="147.32" x2="86.36" y2="149.86" width="0.1524" layer="91"/>
+<pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -21300,8 +21314,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="!INT" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="!INT"/>
-<wire x1="71.12" y1="134.62" x2="73.66" y2="134.62" width="0.1524" layer="91"/>
-<label x="73.66" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
+<wire x1="71.12" y1="134.62" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
+<label x="91.44" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="134.62" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="137.16" x2="86.36" y2="134.62" width="0.1524" layer="91"/>
+<junction x="86.36" y="134.62"/>
 </segment>
 <segment>
 <pinref part="J3" gate="G$1" pin="5"/>
