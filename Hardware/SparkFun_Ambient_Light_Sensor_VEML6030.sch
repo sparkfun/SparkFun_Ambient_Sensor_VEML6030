@@ -20365,7 +20365,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="P6" x="0.87" y="0.65" dx="0.55" dy="0.3" layer="1"/>
 <text x="-1.43" y="2.28633125" size="1" layer="25">&gt;NAME</text>
 <text x="-1.43" y="-2.98433125" size="1" layer="27">&gt;VALUE</text>
-<circle x="-1.6" y="1.6" radius="0.538515625" width="0" layer="21"/>
+<circle x="-1.397" y="1.524" radius="0.283978125" width="0" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -21048,6 +21048,7 @@ pull up resistors.</text>
 <wire x1="175.26" y1="93.98" x2="243.84" y2="93.98" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="243.84" y1="93.98" x2="243.84" y2="137.16" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="243.84" y1="137.16" x2="175.26" y2="137.16" width="0.2032" layer="97" style="shortdash"/>
+<text x="35.56" y="154.94" size="1.778" layer="97" font="vector">VCC Range: 2.5-3.6V</text>
 </plain>
 <instances>
 <instance part="FD1" gate="G$1" x="233.68" y="27.94" smashed="yes"/>
