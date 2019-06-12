@@ -21017,7 +21017,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="241.3" y="7.62" size="2.54" layer="94" font="vector">v01</text>
+<text x="241.3" y="7.62" size="2.54" layer="94" font="vector">v10</text>
 <text x="167.64" y="7.62" size="2.54" layer="94" font="vector">Elias Santistevan</text>
 <wire x1="101.6" y1="185.42" x2="101.6" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
 <wire x1="101.6" y1="99.06" x2="0" y2="99.06" width="0.1524" layer="97" style="shortdash"/>
@@ -21035,11 +21035,10 @@ Alternate: 0x10 (Close Jumper)</text>
 remove LED.</text>
 <text x="215.9" y="121.92" size="1.778" layer="97" font="vector">Cut traces to remove 
 pull up resistors.</text>
-<wire x1="111.76" y1="160.02" x2="111.76" y2="101.6" width="0.2032" layer="97" style="shortdash"/>
+<wire x1="111.76" y1="165.1" x2="111.76" y2="101.6" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="111.76" y1="101.6" x2="162.56" y2="101.6" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="162.56" y1="101.6" x2="162.56" y2="165.1" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="162.56" y1="165.1" x2="111.76" y2="165.1" width="0.2032" layer="97" style="shortdash"/>
-<wire x1="111.76" y1="165.1" x2="111.76" y2="160.02" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="109.22" y1="88.9" x2="109.22" y2="55.88" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="109.22" y1="55.88" x2="175.26" y2="55.88" width="0.2032" layer="97" style="shortdash"/>
 <wire x1="175.26" y1="55.88" x2="175.26" y2="88.9" width="0.2032" layer="97" style="shortdash"/>
@@ -21123,8 +21122,8 @@ pull up resistors.</text>
 <instance part="GND3" gate="1" x="55.88" y="38.1" smashed="yes">
 <attribute name="VALUE" x="55.88" y="37.846" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="GND4" gate="1" x="81.28" y="38.1" smashed="yes">
-<attribute name="VALUE" x="81.28" y="37.846" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND4" gate="1" x="81.28" y="35.56" smashed="yes">
+<attribute name="VALUE" x="81.28" y="35.306" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="R4" gate="G$1" x="134.62" y="134.62" smashed="yes" rot="R90">
 <attribute name="NAME" x="133.096" y="134.62" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -21240,6 +21239,7 @@ pull up resistors.</text>
 <pinref part="J3" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
 <wire x1="78.74" y1="40.64" x2="81.28" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="40.64" x2="81.28" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
