@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.0">
+<eagle version="9.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="30" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
@@ -40,7 +40,7 @@
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
@@ -83,10 +83,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -3758,7 +3758,7 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 </element>
 <element name="U1" library="SparkFun-Sensors" package="VEML6030" value="VEML6030" x="12.7" y="12.7" smashed="yes" rot="R270">
 <attribute name="NAME" x="14.98633125" y="14.13" size="1" layer="25" rot="R270"/>
-<attribute name="PROD_ID" value="" x="12.7" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PROD_ID" value="SEN-14447" x="12.7" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="9.71566875" y="14.13" size="1" layer="27" rot="R270"/>
 </element>
 <element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="13.462" y="20.32" smashed="yes" rot="MR0"/>
@@ -3791,23 +3791,23 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="RES-00824" x="12.7" y="15.875" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
 <attribute name="VALUE" x="12.7" y="15.113" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
-<element name="U$2" library="Labels" package="3V3-04" value="" x="10.16" y="1.524" rot="R90"/>
-<element name="U$3" library="Labels" package="GND-04" value="" x="7.62" y="1.524" rot="R90"/>
-<element name="U$4" library="Labels" package="SDA-[)" value="" x="12.7" y="1.524" rot="R90"/>
-<element name="U$5" library="Labels" package="SCL-[)" value="" x="15.24" y="1.524" rot="R90"/>
-<element name="U$6" library="Labels" package="INT#-[&lt;" value="" x="17.78" y="1.397" rot="R90"/>
-<element name="U$7" library="Labels" package="INT#-[&lt;" value="" x="17.78" y="1.397" rot="MR90"/>
-<element name="U$8" library="Labels" package="GND-04" value="" x="7.62" y="1.524" rot="MR90"/>
-<element name="U$9" library="Labels" package="SDA-[)" value="" x="12.7" y="1.524" rot="MR90"/>
-<element name="U$10" library="Labels" package="SCL-[)" value="" x="15.24" y="1.524" rot="MR90"/>
-<element name="U$11" library="Labels" package="3V3-04" value="" x="10.16" y="1.524" rot="MR90"/>
-<element name="U$12" library="Labels" package="I_SUPER2_C-()-04" value="" x="14.859" y="10.16" rot="MR0"/>
-<element name="U$13" library="Labels" package="ADR-()" value="" x="9.525" y="10.16" rot="MR0"/>
-<element name="U$14" library="LED" package="LED0" value="" x="4.826" y="14.478" rot="MR0"/>
-<element name="U$15" library="Product Label" package="AMBIENT_LIGHT0" value="" x="5.461" y="23.114"/>
-<element name="U$16" library="Product Label" package="SENSOR1" value="" x="8.636" y="21.59"/>
-<element name="U$17" library="Product Label" package="VEML60302" value="" x="6.731" y="19.685"/>
-<element name="U$18" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="22.86" y="6.35"/>
+<element name="U$2" library="Labels" package="3V3-04" value="" x="10.16" y="1.524" smashed="yes" rot="R90"/>
+<element name="U$3" library="Labels" package="GND-04" value="" x="7.62" y="1.524" smashed="yes" rot="R90"/>
+<element name="U$4" library="Labels" package="SDA-[)" value="" x="12.7" y="1.524" smashed="yes" rot="R90"/>
+<element name="U$5" library="Labels" package="SCL-[)" value="" x="15.24" y="1.524" smashed="yes" rot="R90"/>
+<element name="U$6" library="Labels" package="INT#-[&lt;" value="" x="17.78" y="1.397" smashed="yes" rot="R90"/>
+<element name="U$7" library="Labels" package="INT#-[&lt;" value="" x="17.78" y="1.397" smashed="yes" rot="MR90"/>
+<element name="U$8" library="Labels" package="GND-04" value="" x="7.62" y="1.524" smashed="yes" rot="MR90"/>
+<element name="U$9" library="Labels" package="SDA-[)" value="" x="12.7" y="1.524" smashed="yes" rot="MR90"/>
+<element name="U$10" library="Labels" package="SCL-[)" value="" x="15.24" y="1.524" smashed="yes" rot="MR90"/>
+<element name="U$11" library="Labels" package="3V3-04" value="" x="10.16" y="1.524" smashed="yes" rot="MR90"/>
+<element name="U$12" library="Labels" package="I_SUPER2_C-()-04" value="" x="14.859" y="10.16" smashed="yes" rot="MR0"/>
+<element name="U$13" library="Labels" package="ADR-()" value="" x="9.525" y="10.16" smashed="yes" rot="MR0"/>
+<element name="U$14" library="LED" package="LED0" value="" x="4.826" y="14.478" smashed="yes" rot="MR0"/>
+<element name="U$15" library="Product Label" package="AMBIENT_LIGHT0" value="" x="5.461" y="23.114" smashed="yes"/>
+<element name="U$16" library="Product Label" package="SENSOR1" value="" x="8.636" y="21.59" smashed="yes"/>
+<element name="U$17" library="Product Label" package="VEML60302" value="" x="6.731" y="19.685" smashed="yes"/>
+<element name="U$18" library="SparkFun-Aesthetics" package="SFE_LOGO_FLAME_.1" value="" x="22.86" y="6.35" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
