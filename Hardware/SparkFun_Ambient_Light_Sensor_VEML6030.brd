@@ -83,10 +83,10 @@
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="no"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="no"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="no"/>
-<layer number="117" name="PM_Ref" color="26" fill="1" visible="no" active="yes"/>
+<layer number="117" name="PM_Ref" color="26" fill="1" visible="yes" active="yes"/>
 <layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="no"/>
-<layer number="119" name="PF_Ref" color="31" fill="1" visible="no" active="yes"/>
-<layer number="120" name="WFL_Ref" color="25" fill="1" visible="no" active="yes"/>
+<layer number="119" name="PF_Ref" color="31" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="WFL_Ref" color="25" fill="1" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="no"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="no"/>
@@ -5040,15 +5040,15 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <vertex x="25.4" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
-<via x="6.35" y="15.24" extent="1-16" drill="0.381"/>
+<via x="6.35" y="15.1384" extent="1-16" drill="0.381"/>
 <via x="16.256" y="9.271" extent="1-16" drill="0.381"/>
 <via x="10.16" y="7.62" extent="1-16" drill="0.381"/>
 <via x="5.334" y="8.001" extent="1-16" drill="0.381"/>
 <via x="13.97" y="2.921" extent="1-16" drill="0.381"/>
 <via x="17.272" y="14.224" extent="1-16" drill="0.381"/>
 <via x="11.176" y="11.049" extent="1-16" drill="0.381"/>
-<via x="11.176" y="14.351" extent="1-16" drill="0.381"/>
-<via x="14.224" y="14.351" extent="1-16" drill="0.381"/>
+<via x="11.2776" y="14.8082" extent="1-16" drill="0.381"/>
+<via x="13.8176" y="14.7574" extent="1-16" drill="0.381"/>
 </signal>
 <signal name="3.3V">
 <contactref element="J1" pad="2"/>
@@ -5076,7 +5076,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <wire x1="12.954" y1="9.7894" x2="12.954" y2="8.001" width="0.254" layer="16"/>
 <wire x1="14.4916" y1="10.7696" x2="14.644" y2="10.922" width="0.254" layer="1"/>
 <wire x1="14.4916" y1="10.7696" x2="13.35" y2="10.7696" width="0.254" layer="1"/>
-<wire x1="10.1346" y1="1.2954" x2="10.16" y2="1.27" width="0.254" layer="16"/>
 <via x="15.8242" y="15.8242" extent="1-16" drill="0.381"/>
 <wire x1="15.8242" y1="15.8242" x2="14.6422" y2="15.8242" width="0.254" layer="1"/>
 <wire x1="14.6422" y1="15.8242" x2="14.6168" y2="15.7988" width="0.254" layer="1"/>
@@ -5239,7 +5238,6 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <approved hash="19,16,812790a1e112fd2e"/>
 <approved hash="19,16,e78bf3b580009984"/>
 <approved hash="19,16,db5c86daf76fa753"/>
-<approved hash="5,16,e89366996654ead4"/>
 </errors>
 </board>
 </drawing>
