@@ -4894,9 +4894,9 @@ These rules have been curated by SparkFuns DFM commitee. After doing much resear
 <attribute name="PROD_ID" value="SEN-14447" x="12.7" y="12.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="9.71566875" y="14.13" size="1" layer="27" rot="R270"/>
 </element>
-<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="13.462" y="20.32" smashed="yes" rot="MR0"/>
+<element name="LOGO1" library="SparkFun-Aesthetics" package="SFE_LOGO_NAME_FLAME_.1" value="SFE_LOGO_NAME_FLAME.1_INCH" x="12.446" y="20.32" smashed="yes" rot="MR0"/>
 <element name="U$1" library="SparkFun-Aesthetics" package="QWIIC_5MM" value="QWIIC_LOGO_5MM" x="2.794" y="8.128" smashed="yes"/>
-<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="22.86" y="19.05" smashed="yes" rot="MR0"/>
+<element name="LOGO2" library="SparkFun-Aesthetics" package="OSHW-LOGO-S" value="OSHW-LOGOS" x="23.114" y="18.542" smashed="yes" rot="MR0"/>
 <element name="R4" library="SparkFun-Resistors" package="0603" value="1k" x="2.5908" y="17.018" smashed="yes">
 <attribute name="NAME" x="2.5908" y="17.78" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="RES-07856" x="2.5908" y="17.018" size="1.778" layer="27" display="off"/>
