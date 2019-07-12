@@ -1,4 +1,4 @@
-SparkFun <PRODUCT NAME> Design Files
+SparkFun Ambient Light Sensor VEML6030 Design Files
 =====================================
 
 The .sch and .brd files hare are Eagle CAD schematic and PCB design files from SparkFun Electronics.
