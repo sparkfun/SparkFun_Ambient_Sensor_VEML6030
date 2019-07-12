@@ -9,9 +9,9 @@ SparkFun Ambient Light Sensor VEML6030 (Qwiic)
 The SparkFun Ambient Light Sensor - VEML6030 (Qwiic) is an I&2;C enabled
 ambient light sensor with high sensitivity and high accuracy. It reads ambient
 light in Lux and boasts a number of nice features including: the ability to set
-high and low thresholds for the optional interrupt, power saving features that enable
+high and low thresholds for an optional interrupt, power saving features that enable
 single digit micro-amp current draw, and a readable  range from zero to 120,000 Lux. We've also written an Arduino 
-library gives full access to all features and includes example code demonstrating all its' abilities (see link below under **Documentation**). 
+library that gives full access to all features and includes example code demonstrating all its' abilities (see link below under **Documentation**). 
 
 Repository Contents
 -------------------
