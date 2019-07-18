@@ -25,7 +25,6 @@ Documentation
 --------------
 * **[SparkFun Ambient Light Sensor Arduino Library](https://github.com/sparkfun/SparkFun_Ambient_Light_Sensor_Arduino_Library)** - Arduino Library
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/qwiic-ambient-light-sensor-veml6030-hookup-guide)** - Basic hookup guide for the SparkFun Ambient Light Sensor
-* **[SparkFun Fritzing repo](https://github.com/sparkfun/Fritzing_Parts)** - Fritzing diagrams for SparkFun products.
 * **[Qwiic Ecosystem](https://www.sparkfun.com/qwiic)** - Qwiic enabled for fast prototyping!
 
 License Information
